@@ -23,8 +23,8 @@ class App extends React.Component{
         <h1 style={{color:"white",fontWeight:"bolder"}}>COUNTER</h1>
         <h1 style={{color:"white",fontWeight:"bolder"}}>{this.state.count}</h1>
         <div style={{display:"flex",textAlign:"center",gap:"40px", alignItems:"center",justifyContent:"center"}}>
-        <button style={{backgroundColor:"purple",borderRadius:"3px",padding:"10px 20px",color:"white",cursor:"pointer"}} onClick={this.handleDecrement}disabled={this.state.count===0}>Decrement</button>
-        <button style={{backgroundColor:"purple",borderRadius:"3px",padding:"10px 20px",color:"white",cursor:"pointer"}} onClick={this.handleIncrement}disabled={this.state.count===10}>Increment</button>
+        <button style={{backgroundColor:"purple",borderRadius:"5px",padding:"10px 20px",color:"white",cursor:"pointer"}} onClick={this.handleDecrement}disabled={this.state.count===0}>Decrement</button>
+        <button style={{backgroundColor:"purple",borderRadius:"5px",padding:"10px 20px",color:"white",cursor:"pointer"}} onClick={this.handleIncrement}disabled={this.state.count===10}>Increment</button>
         </div>
       </div>
       </div>
