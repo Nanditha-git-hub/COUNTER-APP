@@ -19,7 +19,7 @@ class App extends React.Component{
   render(){
     return (
       <div style={{height:"100vh",textAlign:"center",alignItems:"center",justifyContent:"center",display:"flex"}}>
-      <div style={{border:"2px solid white", alignItems:"center", width:"50%" ,textAlign:"center", justifyContent:"center",padding:"20px"}}>
+      <div style={{alignItems:"center", width:"50%" ,textAlign:"center", justifyContent:"center",padding:"20px"}}>
         <h1 style={{color:"white",fontWeight:"bolder"}}>COUNTER</h1>
         <h1 style={{color:"white",fontWeight:"bolder"}}>{this.state.count}</h1>
         <div style={{display:"flex",textAlign:"center",gap:"40px", alignItems:"center",justifyContent:"center"}}>
